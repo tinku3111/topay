@@ -1,0 +1,122 @@
+.bar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: white;
+    border-color: orange;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+
+.bar img{
+    height: 110px;
+    width: 120px;
+    color: orange;
+}
+
+.bar .signin{
+    height: 28px;
+    width: 50px;
+
+    color: rgb(129, 128, 127);
+    margin-top: 45px;
+    margin-left: 45px;
+    font-size:x-large;
+    
+}
+.bar .signin:hover{
+    color: orange;
+}
+.items {
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.top-items {
+    display:flex;
+    flex-direction: row;
+    overflow: auto;
+    scrollbar-width: none;
+}
+.items img{
+    height: 200px;
+}
+.top-items img{
+    height: 250px;
+    width: 250px;
+    border-radius: 25px 25px 25px 25px;
+    padding-left: 100px;
+}
+.top-items h2{
+    text-align: center;
+}
+
+.bg-img{
+    background-image: url(del.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    background-attachment: fixed;
+}
+.box {
+    background: transparent;
+    border: solid rgb(241, 170, 56);
+    width: 300px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 30px auto ;
+    color: black;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(3px);
+}
+.box button{
+    width: 100%;
+    border: 2px solid beige;
+    border-radius: 20px;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 3px;
+    margin: 5px auto;
+}
+.box button:hover{
+    background-color: rgb(225, 164, 34);
+}
+.box:hover{
+    background-color: white;
+}
+.box input{
+    width: 83%;
+    border: 2px solid rgb(255, 167, 34);
+    background: transparent;
+    border-radius: 20px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    outline: none;
+    margin: 10px auto ;
+    padding: 0px 25px ;
+
+    font-size: large;
+}
+.box img{
+    height: 200px;
+    width: 300px;
+    margin-top: -40px;
+}
+.help-support{
+    background-color: rgb(15, 140, 208);
+    height: 100px;
+    padding: 30px;
+}
+.help-details{
+    text-align:  center;
+}
+.about{
+    background-color: rgb(218, 181, 71);
+    height: 130px;
+    padding: 30px;
+}
