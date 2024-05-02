@@ -13,7 +13,7 @@
 .bar img{
     height: 90px;
     width: 130px;
-    color: orange;
+    padding-top:10px;
 }
 
 .bar .signin{
